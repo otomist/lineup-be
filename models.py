@@ -6,7 +6,6 @@ class Step(BaseModel):
     y: int
 
 class Strategy(BaseModel):
-    id: str
     title: str
     steps: list[Step]
     # def model_dump(self):
